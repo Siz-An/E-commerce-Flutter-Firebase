@@ -1,6 +1,6 @@
 
 
-class TText{
+class TTexts{
 
 
   //-- Global Text
