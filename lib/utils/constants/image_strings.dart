@@ -6,7 +6,7 @@ class TImages{
 
   // -- Social Logos
   static const String facebook = "assets/logos/facebook.png";
-  static const String google = "assets/logos/google.png";
+  static const String google = "assets/logos/Google.png";
 
   // -- OnBoarding Images
   static const String onBoardingImage1 = "assets/images/on_boarding_images/searching.gif";
