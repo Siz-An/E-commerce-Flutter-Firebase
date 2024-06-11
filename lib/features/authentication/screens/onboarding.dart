@@ -1,8 +1,8 @@
 import 'package:e_com/features/authentication/controllers.onboarding/onboarding_controller.dart';
-import 'package:e_com/features/authentication/screens.onboarding/widgets/onboarding_dot_navigation.dart';
-import 'package:e_com/features/authentication/screens.onboarding/widgets/onboarding_next_button.dart';
-import 'package:e_com/features/authentication/screens.onboarding/widgets/onboarding_page.dart';
-import 'package:e_com/features/authentication/screens.onboarding/widgets/onboarding_skip.dart';
+import 'package:e_com/features/authentication/screens/widgets/onboarding_dot_navigation.dart';
+import 'package:e_com/features/authentication/screens/widgets/onboarding_next_button.dart';
+import 'package:e_com/features/authentication/screens/widgets/onboarding_page.dart';
+import 'package:e_com/features/authentication/screens/widgets/onboarding_skip.dart';
 import 'package:e_com/utils/constants/image_strings.dart';
 import 'package:e_com/utils/constants/sizes.dart';
 import 'package:e_com/utils/constants/text_strings.dart';
