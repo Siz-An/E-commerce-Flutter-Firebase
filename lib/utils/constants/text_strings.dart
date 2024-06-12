@@ -20,39 +20,41 @@ class TTexts{
 
   // -- Authentication Form Texts
   static const String firstName = "First Name";
-  static const String lastName = "Select Your Choices";
-  static const String email = "Select Your Choices";
-  static const String password = "Let's create your Account";
-  static const String newPassword = "Welcome User";
-  static const String username = "Select Your Choices";
-  static const String phoneNo = "Let's create your Account";
-  static const String rememberMe = "Welcome User";
-  static const String forgetPassword = "Select Your Choices";
-  static const String signIn = "Let's create your Account";
-  static const String orSignInWith = "Let's create your Account";
+  static const String lastName = "Last Name";
+  static const String email = "e-mail";
+  static const String password = "password";
+  static const String newPassword = "New Password";
+  static const String username = "User Name";
+  static const String phoneNo = "Phone Number";
+  static const String rememberMe = "Remember me";
+  static const String forgetPassword = "Forget Password";
+  static const String signIn = "Let's Go";
+  static const String orSignInWith = "Sign In With";
+  static const String orSignUpWith = "SignUp With";
   static const String createAccount = "Let's create your Account";
-  static const String orSignUp = "Welcome User";
-  static const String iAgreeTo = "Select Your Choices";
-  static const String privacyPolicy = "Let's create your Account";
-  static const String termsOfUse = "Let's create your Account";
-  static const String verificationCode = "Welcome User";
-  static const String resendEmail = "Select Your Choices";
-  static const String resendEmailIn = "Let's create your Account";
+  static const String orSignUp = "or Sign Up";
+  static const String iAgreeTo = "I agree to";
+  static const String privacyPolicy = "Privacy Policy";
+  static const String termsOfUse = "Terms of use";
+  static const String verificationCode = "Verification Code";
+  static const String resendEmail = "Resend Email";
+  static const String resendEmailIn = "Resend email in";
+  static const String and = "and";
 
 
 
   // -- Authentication Heading Texts
   static const String loginTitle = "Welcome User";
-  static const String loginSubTitle = "Select Your Choices";
+  static const String loginSubTitle = "Go for it choose every Product";
   static const String signupTitle = "Let's create your Account";
-  static const String forgetPasswordTitle = "Welcome User";
-  static const String forgetPasswordSubTitle = "Select Your Choices";
-  static const String changeYourPasswordTitle = "Let's create your Account";
-  static const String changeYourPasswordSubTitle = "Welcome User";
-  static const String confirmEmail = "Select Your Choices";
-  static const String confirmEmailSubTitle = "Let's create your Account";
-  static const String emailNotReceivedMessage = "Welcome User";
-  static const String yourAccountCreatedTitle = "Select Your Choices";
-  static const String yourAccountCreatedSubTitle = "Let's create your Account";
+  static const String forgetPasswordTitle = "Everyone Forgets their Password";
+  static const String forgetPasswordSubTitle = "Go on Change it";
+  static const String changeYourPasswordTitle = "Why you want to Change your Password";
+  static const String changeYourPasswordSubTitle = "I know you forgot it hmm";
+  static const String confirmEmail = "Confirm Email";
+  static const String confirmEmailSubTitle = "Go Confirm it";
+  static const String emailNotReceivedMessage = "Something is wrong your Internet I guess";
+  static const String yourAccountCreatedTitle = "Account Created Successfully";
+  static const String yourAccountCreatedSubTitle = "Have Fun Shopping";
 
 }
