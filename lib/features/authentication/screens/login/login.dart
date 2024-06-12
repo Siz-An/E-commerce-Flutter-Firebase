@@ -5,11 +5,9 @@ import 'package:e_com/utils/constants/colors.dart';
 import 'package:e_com/utils/constants/sizes.dart';
 import 'package:e_com/utils/helpers/helper_function.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get_utils/get_utils.dart';
-import 'package:iconsax/iconsax.dart';
+import '../../../../common/widgets/login_signup/form_divider.dart';
+import '../../../../common/widgets/login_signup/social_buttons.dart';
 
-import '../../../../common/widgets.login_signup/form_divider.dart';
-import '../../../../common/widgets.login_signup/social_buttons.dart';
 import '../../../../utils/constants/image_strings.dart';
 import '../../../../utils/constants/text_strings.dart';
 

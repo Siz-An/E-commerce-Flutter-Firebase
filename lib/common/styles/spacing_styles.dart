@@ -1,6 +1,5 @@
 
 import 'package:flutter/cupertino.dart';
-
 import '../../utils/constants/sizes.dart';
 
 class TSpacingStyle{

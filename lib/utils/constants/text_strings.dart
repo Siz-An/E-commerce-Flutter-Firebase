@@ -40,6 +40,7 @@ class TTexts{
   static const String resendEmail = "Resend Email";
   static const String resendEmailIn = "Resend email in";
   static const String and = "and";
+  static const String tContinue = "Continue";
 
 
 
@@ -51,10 +52,10 @@ class TTexts{
   static const String forgetPasswordSubTitle = "Go on Change it";
   static const String changeYourPasswordTitle = "Why you want to Change your Password";
   static const String changeYourPasswordSubTitle = "I know you forgot it hmm";
-  static const String confirmEmail = "Confirm Email";
-  static const String confirmEmailSubTitle = "Go Confirm it";
+  static const String confirmEmail = "Verify your Email address!!";
+  static const String confirmEmailSubTitle = "A confirmation email has been sent to your email address. Please check your inbox and click on the verification link to confirm your email address. If you do not receive the email within a few minutes, please check your spam folder or try resending the confirmation email.";
   static const String emailNotReceivedMessage = "Something is wrong your Internet I guess";
   static const String yourAccountCreatedTitle = "Account Created Successfully";
-  static const String yourAccountCreatedSubTitle = "Have Fun Shopping";
+  static const String yourAccountCreatedSubTitle = "Your account has been created successfully! You can now log in and start using our services. If you have any questions, feel free to contact our support team.";
 
 }
