@@ -1,10 +1,12 @@
 
 
+import 'package:e_com/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:iconsax/iconsax.dart';
 
+import '../../../../../navigation_menu.dart';
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
 import '../../signup/signup.dart';
@@ -54,12 +56,12 @@ class TLoginForm extends StatelessWidget {
                     ],
                   ),
                   /// -- Forget Password
-                  TextButton(onPressed: (){}, child: const Text(TTexts.forgetPassword))
+                  TextButton(onPressed: () => Get.to(() => const ForgetPassword()), child: const Text(TTexts.forgetPassword))
                 ],
               ),
               const SizedBox(height: TSizes.spaceBtwSections),
               /// Sign In Button
-              SizedBox(width: double.infinity, child: ElevatedButton(onPressed: (){}, child: const Text(TTexts.signIn))),
+              SizedBox(width: double.infinity, child: ElevatedButton(onPressed: () => Get.to(()=> const NavigationMenu()), child: const Text(TTexts.signIn))),
               const SizedBox(height: TSizes.spaceBtwItems),
               /// Create an Account Button
               SizedBox(width: double.infinity, child: OutlinedButton(onPressed: () => Get.to(() => const SignUpScreen()), child: const Text(TTexts.createAccount))),

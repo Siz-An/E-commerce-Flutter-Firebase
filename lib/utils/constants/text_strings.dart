@@ -41,6 +41,8 @@ class TTexts{
   static const String resendEmailIn = "Resend email in";
   static const String and = "and";
   static const String tContinue = "Continue";
+  static const String submit = "Submit";
+  static const String done = "Done";
 
 
 
@@ -50,8 +52,8 @@ class TTexts{
   static const String signupTitle = "Let's create your Account";
   static const String forgetPasswordTitle = "Everyone Forgets their Password";
   static const String forgetPasswordSubTitle = "Go on Change it";
-  static const String changeYourPasswordTitle = "Why you want to Change your Password";
-  static const String changeYourPasswordSubTitle = "I know you forgot it hmm";
+  static const String changeYourPasswordTitle = "Password Reset Email Sent";
+  static const String changeYourPasswordSubTitle = "Your password is the key to your personal information. Regularly updating it ensures your digital world remains safe from unauthorized access. Don't wait for a security breach to take action—protect your data now by changing your password and keep your information secure.";
   static const String confirmEmail = "Verify your Email address!!";
   static const String confirmEmailSubTitle = "A confirmation email has been sent to your email address. Please check your inbox and click on the verification link to confirm your email address. If you do not receive the email within a few minutes, please check your spam folder or try resending the confirmation email.";
   static const String emailNotReceivedMessage = "Something is wrong your Internet I guess";
