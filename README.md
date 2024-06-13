@@ -1,4 +1,4 @@
-# e_com
+# e_comm
 
 A new Flutter project.
 
