@@ -1,6 +1,4 @@
 
-import 'dart:math';
-
 import 'package:e_com/common/widgets/sucess_screen/success_screen.dart';
 import 'package:e_com/features/authentication/screens/login/login.dart';
 import 'package:e_com/utils/constants/image_strings.dart';
@@ -18,9 +16,7 @@ class VerifyEmailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(20.0),
-      child: Scaffold(
+    return  Scaffold(
         appBar: AppBar(
           automaticallyImplyLeading: false,
           actions: [
@@ -30,11 +26,11 @@ class VerifyEmailScreen extends StatelessWidget {
         body:  SingleChildScrollView(
           //Padding to give Default Equal Space on all Sides in a screen
           child: Padding(
-              padding: EdgeInsets.all(TSizes.defaultSpace),
+              padding: const EdgeInsets.all(TSizes.defaultSpace),
           child: Column(
             children: [
               /// Image
-                Image(image: AssetImage(TImages.deliveredInPlaneIllustration), width: THelperFunction.screenWidth() * 0.6,),
+                Image(image: const AssetImage(TImages.deliveredInPlaneIllustration), width: THelperFunction.screenWidth() * 0.6,),
               const SizedBox(height: TSizes.spaceBtwItems,),
 
               /// Title & SubTitle
@@ -66,7 +62,7 @@ class VerifyEmailScreen extends StatelessWidget {
           ),
         ),
 
-      ),
-    );
+      );
+
   }
 }
