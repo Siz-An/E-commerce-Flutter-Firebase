@@ -32,7 +32,7 @@ class TVerticalImageText extends StatelessWidget {
           children: [
             /// ---> Circular icon
             Container(
-              width: 56,
+              width: 60,
               height: 56,
               padding: const EdgeInsets.all(TSizes.sm),
               decoration: BoxDecoration(
@@ -47,7 +47,7 @@ class TVerticalImageText extends StatelessWidget {
             /// ---> Text
             SizedBox(height: TSizes.spaceBtwItems/2),
             SizedBox(
-                width: 50,
+                width: 41,
                 child: Text(title,
                   style: Theme.of(context).textTheme.labelMedium!.apply(color: textColor),
                   maxLines: 1,

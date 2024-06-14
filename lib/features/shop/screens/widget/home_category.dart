@@ -14,10 +14,10 @@ class THomeCategory extends StatelessWidget {
       height: 80,
       child: ListView.builder(
           shrinkWrap: true,
-          itemCount: 9,
+          itemCount: 5,
           scrollDirection: Axis.horizontal,
           itemBuilder: (_, index){
-            return  TVerticalImageText(image: TImages.mouseIcon, title: 'Mouse--', onTap: (){},);
+            return  TVerticalImageText(image: TImages.laptopIcons, title: 'Laptop', onTap: (){},);
           }),
     );
   }
