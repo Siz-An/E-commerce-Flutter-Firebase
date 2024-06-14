@@ -22,4 +22,13 @@ class TImages{
   static const String productIllustration = "assets/images/animation/product-illustration.gif";
   static const String productSale = "assets/images/animation/product-sale-illustration.gif";
   static const String deliveredInPlaneIllustration = "assets/images/animation/later.gif";
+
+  // -- Category Icons
+  static const String mouseIcon = "assets/icons/category/mouse.png";
+  static const String keyboardIcon = "assets/icons/category/keyboard.png";
+  static const String ssdIcon  = "assets/icons/category/ssd.png";
+  static const String monitorIcon = "assets/icons/category/monitor.png";
+  static const String mobileIcon = "assets/icons/category/smart.png";
+  static const String laptopIcons = "assets/icons/category/laptop.png";
+  static const String laptopIcon = "assets/icons/category/laptop.jpeg";
 }
