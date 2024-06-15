@@ -15,6 +15,7 @@ import '../../../common/widgets/custom_shapes/search_container.dart';
 import '../../../common/widgets/image_text_widgets/vertical_image_text.dart';
 import '../../../common/widgets/images/t_rounded_images.dart';
 import '../../../common/widgets/products/cart/cart_menu_icon.dart';
+import '../../../common/widgets/products/product_card/product_card_vertical.dart';
 import '../../../common/widgets/texts/section_heading.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import '../../../utils/constants/colors.dart';
@@ -62,7 +63,14 @@ class HomeScreen extends StatelessWidget {
             /// ----> Body Part
             Padding(
               padding:  EdgeInsets.all(TSizes.defaultSpace),
-              child: TPromoSlide(banner: [TImages.promoBanner1,TImages.promoBanner2,TImages.promoBanner3,TImages.promoBanner4,],)
+              child: Column(
+                children: [
+                  TPromoSlide(banner: [TImages.promoBanner1,TImages.promoBanner2,TImages.promoBanner3,TImages.promoBanner4]),
+                  SizedBox(height: TSizes.spaceBtwSections - 15),
+                  /// ----> Popular Products
+                  TProductCardVertical(),
+                ],
+              )
             )
           ],
         ),
