@@ -50,5 +50,9 @@ flutter:
     - assets/icons/brand/
     - assets/icons/category/
     - assets/images/banner/
+    - assets/images/products/desktop/
+    - assets/images/products/keyboard/
+    - assets/images/products/laptop/
+    - assets/images/products/mouse/
 
 #----------Local Fonts-----------#

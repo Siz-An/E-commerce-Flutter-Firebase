@@ -54,7 +54,7 @@ class TSizes{
 
   // Card Sizes
   static const double cardRadiusLg = 16;
-  static const double cardRadiusMg = 12;
+  static const double cardRadiusMd = 12;
   static const double cardRadiusSm = 10;
   static const double cardRadiusXs = 6;
   static const double cardElevation = 2;

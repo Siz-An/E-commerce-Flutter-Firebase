@@ -37,4 +37,13 @@ class TImages{
   static const String promoBanner2 = "assets/images/banner/banner2.jpeg";
   static const String promoBanner3 = "assets/images/banner/banner3.webp";
   static const String promoBanner4 = "assets/images/banner/banner4.png";
+
+  // --> Products Image
+  static const String productImageKey1 = "assets/images/products/keyboard/keyboard1.webp";
+  static const String productImageKey2 = "assets/images/products/keyboard/keyboard2.webp";
+  static const String productImageKey3 = "assets/images/products/keyboard/keyboard3.webp";
+
+  static const String productImageLap1 = "assets/images/products/laptop/laptop1.webp";
+  static const String productImageLap2 = "assets/images/products/laptop/laptop2.webp";
+  static const String productImageLap3 = "assets/images/products/laptop/laptop3.webp";
 }
