@@ -41,7 +41,7 @@ class TVerticalImageText extends StatelessWidget {
               ),
               child: Center(
                 child: Image(image: AssetImage(image), fit: BoxFit.fill,
-                    color: dark ? TColors.black : TColors.dark),
+                    color: dark ? TColors.light : TColors.dark),
               ),
             ),
             /// ---> Text
