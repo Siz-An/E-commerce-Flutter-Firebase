@@ -1,6 +1,6 @@
 {
-    "name": "e_comm",
-    "short_name": "e_comm",
+    "name": "e_com",
+    "short_name": "e_com",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
