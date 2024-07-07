@@ -21,7 +21,7 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: [
             /// ---> Header
-            TPrimaryHeaderContainer(
+            const TPrimaryHeaderContainer(
               child: Column(
                 children: [
                   /// ---> Appbar
@@ -51,7 +51,7 @@ class HomeScreen extends StatelessWidget {
             ),
             /// ----> Body Part
             Padding(
-              padding:  EdgeInsets.all(TSizes.defaultSpace),
+              padding:  const EdgeInsets.all(TSizes.defaultSpace),
               child: Column(
                 children: [
                   const TPromoSlide(banner: [TImages.promoBanner1,TImages.promoBanner2,TImages.promoBanner3,TImages.promoBanner4]),
