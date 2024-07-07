@@ -1,4 +1,3 @@
-// import 'package:carousel_slider/carousel_slider.dart';
 import 'package:carousel_slider_plus/carousel_slider_plus.dart';
 import 'package:e_com/features/shop/controllers/home_controller.dart';
 import 'package:flutter/cupertino.dart';
@@ -11,7 +10,6 @@ import '../../../../../common/widgets/custom_shapes/circular_container.dart';
 import '../../../../../common/widgets/images/t_rounded_images.dart';
 import '../../../../../utils/constants/colors.dart';
 import '../../../../../utils/constants/sizes.dart';
-
 
 class TPromoSlide extends StatelessWidget {
   const TPromoSlide({
@@ -27,28 +25,32 @@ class TPromoSlide extends StatelessWidget {
       children: [
         CarouselSlider(
           options: CarouselOptions(
-              viewportFraction: 1,
-            onPageChanged: (index, _) => controller.updatePageIndicator(index)
+            viewportFraction: 1,
+            autoPlay: true,
+            autoPlayInterval: const Duration(seconds: 1),
+            onPageChanged: (index, _) => controller.updatePageIndicator(index),
           ),
-          items:  banner.map((url) => TRoundedImage(imageUrl: url)).toList()
+          items: banner.map((url) => TRoundedImage(imageUrl: url)).toList(),
         ),
         const SizedBox(height: TSizes.spaceBtwItems,),
         Center(
           child: Obx(
-            () =>  Row(
+                () => Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                for(int i = 0; i < banner.length; i++)
+                for (int i = 0; i < banner.length; i++)
                   TCircularContainer(
                     width: 20,
                     height: 4,
                     margin: const EdgeInsets.only(right: 10),
-                    backgroundColor:
-                    controller.carousalCurrentIndex.value == i ? TColors.primaryColor: TColors.grey ),
+                    backgroundColor: controller.carousalCurrentIndex.value == i
+                        ? TColors.primaryColor
+                        : TColors.grey,
+                  ),
               ],
             ),
           ),
-        )
+        ),
       ],
     );
   }
